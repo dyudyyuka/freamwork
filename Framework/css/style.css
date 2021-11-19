@@ -1,0 +1,82 @@
+.hide {
+    display: none;
+}
+div#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#graph2D {
+    margin-top: 15px;
+}
+canvas {
+    position: relative;
+    left: 30%;
+}
+#funcsInputs {
+    position: relative;
+    left: 30%;
+}
+#addFunction {
+    position: relative;
+    left: 30%;
+}
+button.showComponent {
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+    text-align: center;
+    padding: 15px 32px;
+    margin-right: 30px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+button.showComponent:hover {
+    background-color: #e93333;
+    color: black;
+}
+button#addFunction {
+    background-color: transparent;
+    border: 1px solid;
+    color: black;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+button#addFunction:hover {
+    background-color: #272727;
+    color: black;
+}
+input {
+    margin-right: 5px;
+    width: 200px;
+    margin-bottom: 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color:rgb(233, 155, 54);
+    opacity: 75%;
+}
+#delete {
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    width: 74px;
+}
+#delete:hover {
+    background-color: rgb(233, 155, 54);
+    color: black;
+}
+body {
+background-image: url(img2.jpg);
+background-position: 100, 100, center;
+background-size:cover;
+    /* background-color: red;
+    background-image: url(img1.jpg); */
+}
